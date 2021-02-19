@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Amatic SC', cursive;
+    background: url(https://www.bakercommunications.com/images/pattern-icons/4.png);
+    padding: 100px 0;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container{
+    width: 800px;
+    min-width: 500px;
+    border: 10px solid #fff;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.header{
+    display: flex;
+    height: 150px;
+}
+
+.title-block{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat center center / cover;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.userpic{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background: url(https://images.unsplash.com/photo-1600267185393-e158a98703de?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDl8fGF2YXRhcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat center center / cover;
+}
+
+.title{
+    position: relative;
+    z-index: 1;
+}
+
+.nav ul{
+    display: flex;
+    background: #dddddd;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.nav li a{
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    border-right: 1px solid #9c9b9b;
+    transition: background 0.3s ease;
+}
+
+.nav li a:hover{
+    background: #cccccc;
+}
+
+.content-wrapper{
+    display: flex;
+}
+
+.content{
+    font-size: 20px;
+    width: 70%;
+    padding: 20px;
+}
+
+.sidebar{
+    font-size: 20px;
+    padding: 20px;
+    width: 30%;
+}
+
+.skills li{
+    margin: 10px 0;
+}
